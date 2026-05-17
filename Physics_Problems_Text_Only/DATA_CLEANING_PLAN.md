@@ -51,13 +51,13 @@ id , question , cot , answer , unit
 | Phase | Hạng mục                 | Kết quả                                           | Mức độ |
 | ----- | -------------------------- | --------------------------------------------------- | --------- |
 | 1.1   | CSV parsing integrity      | ✅ PASS — 1352 rows, 0 lỗi parse, đúng 5 cột   | CLEAR     |
-| 1.2   | Missing values             | ⚠️ 14 records có `unit` rỗng                  | HIGH      |
+| 1.2   | Missing values             | ✅ ĐÃ SỬA — 0 unit rỗng (14 records đã gán)   | DONE      |
 | 1.3   | Duplicate ID               | ✅ PASS — 0 duplicate                              | CLEAR     |
 | 2.1   | ID prefix & gaps           | ⚠️ 8 prefix, nhiều gap trong numbering           | MEDIUM    |
 | 3.1   | Answer type classification | ❌ 164 OTHER, 7 SYMBOLIC, 1 LEADING_ZERO            | CRITICAL  |
 | 3.2   | Answer = 0                 | ⚠️ 18 records (nhiều hơn dự kiến)             | MEDIUM    |
 | 4.1   | Unit normalization         | ⚠️ 2 chuẩn μ,`-` vs `—`, 14 empty          | HIGH      |
-| 5.1   | CoT structure              | ⚠️ 2 CoT thiếu Step 1, 1 CoT chỉ có 2 bước   | HIGH      |
+| 5.1   | CoT structure              | ✅ ĐÃ SỬA — LD353 thêm Step 1, NL389–400 xóa prefix | DONE      |
 | 5.2   | CoT completeness           | ⚠️ 2 records CoT kết thúc không hoàn chỉnh   | HIGH      |
 | 5.3   | CoT-Answer alignment       | ⚠️ 53 records answer không xuất hiện cuối CoT | MEDIUM    |
 | 5.4   | Meta-comment in question   | ⚠️ 1 record (LD011)                               | LOW       |
@@ -73,17 +73,27 @@ id , question , cot , answer , unit
 - Parse bằng `csv.reader` với `quotechar='"'`: 1352 rows, 0 lỗi
 - Tất cả rows đúng 5 cột. Multi-line CoT được quote đúng cách.
 
-**1.2 Missing values** — CÓ VẤN ĐỀ
+**1.2 Missing values** — ✅ ĐÃ SỬA (2026-05-17)
 
 - `id`, `question`, `cot`, `answer`: không có giá trị rỗng
-- `unit`: **14 records rỗng** (không phải `-`, mà thực sự là chuỗi rỗng)
+- `unit`: ~~14 records rỗng~~ → **0 records rỗng** sau khi gán đơn vị
 
-```
-TD013, DT047, TD369, TD373, TD377, TD380, TD386
-DDT327, DDT337, DDT343, CH371, CH372, CH373, CH374
-```
-
-Lưu ý: DT047 có answer dạng symbolic (`1/2 . (1/ \sqrt{E_A} + 1/ \sqrt{E_B})`), TD369/377/380/386 có answer dạng text conceptual.
+| ID      | Answer                              | Unit gán   | Lý do tính toán                                     |
+| ------- | ----------------------------------- | ---------- | ---------------------------------------------------- |
+| TD013   | 5.28                                | `-`        | Hằng số điện môi κ = C·d/(ε₀·A) — vô thứ nguyên  |
+| DT047   | 1/2·(1/√E_A + 1/√E_B)             | `(m/V)^0.5`| E có đơn vị V/m → 1/√E có đơn vị (m/V)^0.5       |
+| TD369   | Do not change                       | `-`        | Đáp án định tính — điện tích bảo toàn             |
+| TD373   | 50%                                 | `%`        | ΔW=(400−200)/400 μJ = 50% — phần trăm             |
+| TD377   | the voltage is halfed               | `-`        | Đáp án định tính — điện áp giảm 1/2 (tỉ số)      |
+| TD380   | decreases by 4 times                | `-`        | Đáp án định tính — năng lượng giảm 4 lần (tỉ số) |
+| TD386   | decreases by half                   | `-`        | Đáp án định tính — điện dung giảm 1/2 (tỉ số)    |
+| DDT327  | 0.60                                | `-`        | cosφ = R/Z = 12/20 = 0.60 — vô thứ nguyên        |
+| DDT337  | 0.60                                | `-`        | cosφ = R/Z = 18/30 = 0.60 — vô thứ nguyên        |
+| DDT343  | 0.40                                | `-`        | cosφ = R/Z = 16/40 = 0.40 — vô thứ nguyên        |
+| CH371   | 1.12                                | `-`        | Q=(1/40)√(0.10/50μF) = 1.12 — hệ số phẩm chất   |
+| CH372   | 1.00                                | `-`        | Q=(1/50)√(0.20/80μF) = 1.00 — hệ số phẩm chất   |
+| CH373   | 1.77                                | `-`        | Q=(1/20)√(0.05/40μF) = 1.77 — hệ số phẩm chất   |
+| CH374   | 2.11                                | `-`        | Q=(1/30)√(0.12/30μF) = 2.11 — hệ số phẩm chất   |
 
 **1.3 Duplicate IDs** — PASS
 
@@ -340,8 +350,8 @@ Phương pháp: tìm giá trị `answer` trong 300 ký tự cuối của CoT.
 **5.1 Cấu trúc CoT**
 
 - [X] Phát hiện 2 CoT không có "Step 1": LD353, NL396
-- [ ] **TODO LD353**: CoT bị cắt mất Step 1 — viết lại hoặc loại bỏ
-- [ ] **TODO NL396**: Sửa format — xóa prefix `"CoT: \n"`, đánh lại Step 1
+- [X] **LD353**: Đã thêm Step 1 — "Identify given values: q1=5.3×10⁻⁶C, q2=3.0×10⁻⁶C, r=3.3 cm, angle=60°, E=k|q|/r²"
+- [X] **NL389–NL400**: Đã xóa prefix `"CoT:\r\n"` / `"COT\r\n "` / `"CoT: "` — tất cả 12 CoT nay bắt đầu bằng `Step 1:`
 
 **5.2 CoT completeness check**
 

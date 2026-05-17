@@ -2346,7 +2346,7 @@
     ],
     "answers": [
       "Unknown",
-      "No"
+      "Yes"
     ],
     "explanation": [
       "Premise 4 states that at least one student is on the honor roll. Premise 10 tells us that anyone on the honor roll must have a high GPA, and Premise 5 says that having a high GPA makes one eligible for a scholarship. So, it logically follows that at least one student is eligible.",
@@ -2396,7 +2396,7 @@
     ],
     "answers": [
       "A",
-      "No"
+      "Yes"
     ],
     "explanation": [
       "Premise 4 states that attending lectures leads to understanding the material, and premise 5 states that understanding the material leads to performing well in exams, so attending lectures leads to performing well in exams, making option A correct. Option B is false because a scholarship does not imply high grades. Option C is false because the contrapositive is not guaranteed. Option D is false because more study time leads to high grades but not necessarily high achievement without further conditions.",
@@ -4048,7 +4048,7 @@
     ],
     "answers": [
       "Unknown",
-      "No"
+      "Yes"
     ],
     "explanation": [
       "From premise 8, we know that if a school has students, it has staff. From premise 13, if a school has staff, then it has teachers. So, if a school has students, it must have staff and then teachers.",
@@ -4100,7 +4100,7 @@
     ],
     "answers": [
       "Unknown",
-      "No"
+      "Yes"
     ],
     "explanation": [
       "From premise 4, if someone is not a student, then they are not a teacher. From premise 3, everyone is a student. So, the antecedent of premise 12 is satisfied, which concludes that everyone is a university staff member.",
@@ -4227,7 +4227,7 @@
     ],
     "answers": [
       "Unknown",
-      "No"
+      "Yes"
     ],
     "explanation": [
       "Premise 5 clearly states that if a student does not attend review sessions, then they do not earn extra credit. So A is directly supported.",
@@ -4264,7 +4264,7 @@
     ],
     "answers": [
       "Unknown",
-      "No"
+      "Yes"
     ],
     "explanation": [
       "Premise 0 directly states that if a student attends classes, then they receive extra credit. This supports option A.",
@@ -4335,7 +4335,7 @@
     ],
     "answers": [
       "Unknown",
-      "No"
+      "Yes"
     ],
     "explanation": [
       "Premise 6 directly states that if a student submits assignments on time, then they receive extra credit. This supports option A.",
@@ -4523,7 +4523,7 @@
     ],
     "answers": [
       "Unknown",
-      "No"
+      "Yes"
     ],
     "explanation": [
       "From premise 2, if someone is not qualified, then they do not pass the exam. The contrapositive of this is: if someone passes the exam, they must be qualified.",
@@ -4598,7 +4598,7 @@
     ],
     "answers": [
       "Unknown",
-      "No"
+      "Yes"
     ],
     "explanation": [
       "Premise 0 states that if a person is not registered, then they are not qualified. Premise 6 states that if a person is not qualified, then they are not registered. Together, these give us the logical equivalence: a person is qualified if and only if they are registered.",
@@ -4633,7 +4633,7 @@
     ],
     "answers": [
       "Unknown",
-      "No"
+      "Yes"
     ],
     "explanation": [
       "From premise 2, we know everyone is registered. Premise 3 states that if someone is not studying, then they are not registered. The contrapositive of that is: if someone is registered, then they are studying. Since everyone is registered, everyone must be studying.",
@@ -5271,7 +5271,7 @@
     ],
     "answers": [
       "Unknown",
-      "No"
+      "Yes"
     ],
     "explanation": [
       "From premise 6 (There exists at least one student who participates in an academic competition), premise 8 (If a student joins the research group, they must contribute to at least one published paper), premise 12 (If joining the research group requires contributing to a published paper, then at least one student must be involved in research), and premise 16 (If a student joins the research group, they must contribute to at least one published paper and actively participate in group discussions. Additionally, if they participate in academic competitions, they can receive academic recognition), we can infer that if at least one student participates in an academic competition and if joining the research group requires contributing to a published paper, then at least one student must be involved in research, and this leads to contributing to at least one published paper. This is because if at least one student participates in an academic competition, and joining the research group requires contributing to a published paper according to premises 8 and 12, then according to premise 16, this leads to contributing to at least one published paper.",
@@ -5327,7 +5327,7 @@
     ],
     "answers": [
       "Unknown",
-      "No"
+      "Yes"
     ],
     "explanation": [
       "From premise 5 (If a student participates in research, they have a higher chance of receiving a scholarship), premise 7 (At least one student who received a full scholarship has participated in research), and premise 9 (If research participation improves scholarship chances, then at least one research student has a scholarship), we can infer that if at least one student who received a full scholarship has participated in research and if research participation improves scholarship chances, then at least one research student has a scholarship. This is because if at least one student who received a full scholarship has participated in research, and research participation improves scholarship chances according to premise 5, then according to premise 9, at least one research student has a scholarship.",
@@ -5377,7 +5377,7 @@
     ],
     "answers": [
       "Unknown",
-      "No"
+      "Yes"
     ],
     "explanation": [
       "From premise 1 (If a student does not follow the school rules, the student will be disciplined), premise 3 (If a student violates the school rules, the student will be banned from extracurricular activities), premise 5 (If a student does not follow the dress code, the student will be asked to change their clothes), and premise 8 (If a student violates the mobile phone policy in class, the student's phone will be confiscated), we can infer that if a student does not follow the school rules and if a student violates the school rules, they will be disciplined and banned from extracurricular activities, and if a student does not follow the dress code, they will be asked to change their clothes. This is because if a student does not follow the school rules, they will be disciplined according to premise 1, and if they violate the school rules, they will be banned from extracurricular activities according to premise 3, and if they do not follow the dress code, they will be asked to change their clothes according to premise 5.",
@@ -5431,7 +5431,7 @@
     ],
     "answers": [
       "B",
-      "No"
+      "Yes"
     ],
     "explanation": [
       "From premise 3, we know that if a student does not complete assignments, they will lose points. From premise 10, we know that if a student does not follow the attendance policy, they will lose participation points. Therefore, if a student does not complete assignments and does not follow the attendance policy, they will lose points and lose participation points, making option B correct.",
@@ -5862,7 +5862,7 @@
     ],
     "answers": [
       "A",
-      "No"
+      "Yes"
     ],
     "explanation": [
       "Answer A is correct because by combining Premise 1 (all students attend class) with Premise 5 (if all students attend class, then at least one student is conducting research), we form a two‐step inference that confirms the conditional statement. This meets the requirement for a chain of inference.",
@@ -6686,7 +6686,7 @@
     ],
     "answers": [
       "Unknown",
-      "No"
+      "Yes"
     ],
     "explanation": [
       "Premise 12 explicitly states that if a reaction is stoichiometrically correct, then it is balanced.",
@@ -6857,7 +6857,7 @@
     ],
     "answers": [
       "Unknown",
-      "No"
+      "Yes"
     ],
     "explanation": [
       "From premise 4, we know that Bob never lazy, which implies Bob studies hard. From premise 1, if Bob studies hard, he can pass the test. From premise 2, if Bob passes the test, he graduates the school. From premise 3, if Bob graduates the school, he is happy. Therefore, Bob will be happy because he studies hard (from premises 4 and 1) and graduates the school (from premises 2 and 3), making option B correct.",
@@ -6891,7 +6891,7 @@
     ],
     "answers": [
       "Unknown",
-      "No"
+      "Yes"
     ],
     "explanation": [
       "From premise 3, we know that Jake has learned Calculus 2, which means he took Calculus 2. From premise 2, we know that to take Calculus 2, a student must have scored at least 4 points on Calculus 1. Therefore, Jake has attended Calculus 2, implying he passed Calculus 1 and scored at least 4 points on it (from premises 2 and 3), making option D correct.",
@@ -6931,7 +6931,7 @@
     ],
     "answers": [
       "Unknown",
-      "No"
+      "Yes"
     ],
     "explanation": [
       "From premise 5, we know that John is a BK student. From premise 3, if John does not graduate within 6 years, he will be out of school. From premise 4, if John is out of school, he has to study more. Therefore, John will have to study more if he does not graduate within 6 years and is out of school (from premises 3, 4, and 5), making option C correct.",
@@ -6968,7 +6968,7 @@
     ],
     "answers": [
       "Unknown",
-      "No"
+      "Yes"
     ],
     "explanation": [
       "From premise 4, we know that Mary got 7 on the midterm exam, 10 on the project, and 9 on the final exam. From premise 2, if the average of these scores is higher than 8, Mary can get an A grade. From premise 3, Mary got an A grade. Therefore, Mary received an A grade due to her scores on the midterm, project, and final exams (from premises 2, 3, and 4), making option B correct.",
@@ -7011,7 +7011,7 @@
     ],
     "answers": [
       "D",
-      "No"
+      "Yes"
     ],
     "explanation": [
       "From premise 5, we know that Peter Griffin is a freshman. From premise 1, this means he needs to register for both PE1 and PE2. From premise 6, we know that Peter Griffin passed PE1. From premise 4, to meet the condition for graduating, Peter Griffin needs to pass both PE1 and PE2. Therefore, Peter Griffin cannot graduate until he registers for PE2 and passes it (from premises 1, 4, 5, and 6), making option B correct.",
@@ -7052,7 +7052,7 @@
     ],
     "answers": [
       "Unknown",
-      "No"
+      "Yes"
     ],
     "explanation": [
       "From premise 5, we know that Tu attended 5 events. From premise 4, attending at least 2 events leads to gaining experience. From premise 2, gaining experience leads to improving skills. Therefore, Tu has gained experience and improved their skills (from premises 2, 4, and 5), making option A correct.",
@@ -7090,7 +7090,7 @@
     ],
     "answers": [
       "Unknown",
-      "No"
+      "Yes"
     ],
     "explanation": [
       "From premise 4, we know that Tuan is in the first semester. From premise 2, being in the first semester means Tuan has a studying schedule. From premise 1, having a studying schedule allows Tuan to register in the BK dormitory. Therefore, Tuan can stay in the BK dormitory because he is in the first semester and has a studying schedule (from premises 1, 2, and 4), making option A correct.",
@@ -7134,7 +7134,7 @@
     ],
     "answers": [
       "D",
-      "No"
+      "Yes"
     ],
     "explanation": [
       "From premise 6, we know that Kahne is a member of the lab. From premise 2, being a lab member means Kahne can get training. From premise 3, training helps Kahne to broaden their knowledge. From premise 1, if Kahne is a BK student and a lab member, they can receive guidance. From premise 4, with guidance and knowledge, Kahne can do a science article. Therefore, Kahne can write a science article if they receive guidance and broaden their knowledge through training (from premises 1, 2, 3, 4, and 6), making option B correct.",
@@ -7172,7 +7172,7 @@
     ],
     "answers": [
       "Unknown",
-      "No"
+      "Yes"
     ],
     "explanation": [
       "From premise 4, we know that Coke is a fourth-year student. From premise 1, fourth-year students (n ≥ 3) can get an internship or go to work. Therefore, Coke can get an internship or go to work because they are a fourth-year student (from premises 1 and 4), making option A correct.",
@@ -7215,7 +7215,7 @@
     ],
     "answers": [
       "Unknown",
-      "No"
+      "Yes"
     ],
     "explanation": [
       "From premise 5, we know that the Titan computer runs complex software. From premise 6, we know that the Titan computer supports multitasking efficiently. From premise 3, a system that runs complex software and supports multitasking efficiently requires a strong cooling unit. Therefore, the Titan computer is likely to have a strong cooling unit because it runs complex software and supports multitasking efficiently (from premises 3, 5, and 6), making option A correct.",
@@ -7258,7 +7258,7 @@
     ],
     "answers": [
       "Unknown",
-      "No"
+      "Yes"
     ],
     "explanation": [
       "From premise 5, we know that the AlphaNet model achieves high accuracy. From premise 6, we know that the AlphaNet model processes data quickly. From premise 3, a model that achieves high accuracy and processes data quickly requires extensive hyperparameter tuning. Therefore, the AlphaNet model has been extensively tuned because it achieves high accuracy and processes data quickly (from premises 3, 5, and 6), making option B correct.",
@@ -7305,7 +7305,7 @@
     ],
     "answers": [
       "Unknown",
-      "No"
+      "Yes"
     ],
     "explanation": [
       "From premise 4, we know that a function can be declared using the 'function' keyword or arrow syntax. This directly implies that such functions are callable, making option B correct.",
@@ -8785,7 +8785,7 @@
     ],
     "answers": [
       "B",
-      "No"
+      "Yes"
     ],
     "explanation": [
       "From premise 3, we know there exists at least one student. From premise 4, if there exists a student, then someone has submitted a scholarship application. From premise 2, if a person has submitted a scholarship application, then they meet the scholarship eligibility criteria. Therefore, if there exists a student, then someone has submitted a scholarship application, and every person who submitted a scholarship application meets the scholarship eligibility criteria (from premises 2, 3, and 4), making option B correct.",
@@ -8827,7 +8827,7 @@
     ],
     "answers": [
       "B",
-      "No"
+      "Yes"
     ],
     "explanation": [
       "From premise 3, we know that if a person received a warning for previous absences, then they acknowledged the new attendance policy. From premise 5, if (a person received a warning for previous absences implies they acknowledged the new attendance policy), then (a person not complying with the new rule implies they are not allowed to attend class). Therefore, if a person received a warning for previous absences, then they acknowledged the new attendance policy, and if they acknowledged the new attendance policy, then not complying with the new rule implies they are not allowed to attend class (from premises 3 and 5), making option B correct.",
@@ -8955,7 +8955,7 @@
     ],
     "answers": [
       "B",
-      "No"
+      "Yes"
     ],
     "explanation": [
       "From premise 2, we know that if a person applied for the exchange opportunity, then they are eligible for the exchange program. From premise 4, if (a person applying implies they are eligible), then (a person not eligible implies they were not selected). From premise 5, if ((a person applying implies eligibility) implies (not eligible implies not selected)), then (a person applying implies eligibility). Therefore, if a person applied for the exchange opportunity, then they are eligible for the exchange program, and if they are not eligible, they were not selected for the exchange program (from premises 2, 3, and 4), making option B correct.",
@@ -8999,7 +8999,7 @@
     ],
     "answers": [
       "B",
-      "No"
+      "Yes"
     ],
     "explanation": [
       "From premise 1, we know that if a person did not participate in organizing the cultural festival, then they did not present any performance or exhibit. From premise 3, there exists someone who attended the cultural festival. From premise 4, if someone attended the cultural festival, then someone learned about different cultures. From premise 5, if (a person not participating in organizing implies they did not present), then there exists someone who learned about different cultures. Therefore, if a person did not participate in organizing the cultural festival, then they did not present any performance or exhibit, and if someone attended the festival, then someone learned about different cultures (from premises 1, 3, and 4), making option B correct.",
@@ -9043,7 +9043,7 @@
     ],
     "answers": [
       "A",
-      "No"
+      "Yes"
     ],
     "explanation": [
       "From premise 2, we know that if a person did not follow the school’s physical activity schedule, then they did not avoid penalty points. From premise 3, everyone received bonus points. From premise 5, if (a person not following the activity schedule implies they did not avoid penalties), then everyone received bonus points. Therefore, if a person did not follow the school’s physical activity schedule, then they did not avoid penalty points, and everyone received bonus points (from premises 2, 3, and 5), making option A correct.",
@@ -9175,7 +9175,7 @@
     ],
     "answers": [
       "A",
-      "No"
+      "Yes"
     ],
     "explanation": [
       "From premise 2, we know there exists someone who attended the midterm exam. From premise 5, if there exists someone who attended the midterm exam, then all students attend the course. From premise 7, there exists someone who attended the final exam. Therefore, if there exists someone who attended the midterm exam, then all students attend the course, and there exists someone who attended the final exam (from premises 2, 5, and 7), making option A correct.",
@@ -9219,7 +9219,7 @@
     ],
     "answers": [
       "A",
-      "No"
+      "Yes"
     ],
     "explanation": [
       "From premise 1, we know there exists someone who lends money to a friend. From premise 4, if there exists someone who lends money to a friend, then a person having the maturity to lend money implies they lend money to a friend. From premise 7, if a person lends money to a friend, then they have learned from the experience. Therefore, if there exists someone who lends money to a friend, then a person having the maturity to lend money implies they lend money to a friend, and if a person lends money to a friend, they have learned from the experience (from premises 1, 4, and 7), making option A correct.",
@@ -9351,7 +9351,7 @@
     ],
     "answers": [
       "A",
-      "No"
+      "Yes"
     ],
     "explanation": [
       "From premise 1, we know there exists a student who is allowed to borrow books from the library. From premise 3, if a person has permission to borrow books from the library, then they are a student allowed to borrow books. From premise 7, if a person is not allowed to borrow books, then they have not borrowed more than 5 books. Therefore, if a person has permission to borrow books from the library, then they are a student allowed to borrow books, and if there exists a student who is allowed to borrow books, then there exists someone who has not borrowed more than 5 books at once (from premises 1, 2, and 7), making option A correct.",
@@ -9397,7 +9397,7 @@
     ],
     "answers": [
       "A",
-      "No"
+      "Yes"
     ],
     "explanation": [
       "From premise 7, we know that all students are participating in the buddy program. From premise 4, if all students are receiving help, then if a person is participating in the buddy program, they gain 5 bonus points and money. From premise 1, if a person is participating in the buddy program, then they gain 5 bonus points and money. From premise 6, there exists a student who gains 5 bonus points and money through the program. Therefore, if all students are participating in the buddy program, then if a person is participating in the buddy program, they gain 5 bonus points and money, and there exists a student who gains 5 bonus points and money through the program (from premises 1, 4, 6, and 7), making option A correct.",
@@ -10324,7 +10324,7 @@
     ],
     "answers": [
       "Unknown",
-      "No"
+      "Yes"
     ],
     "explanation": [
       "There exists a student who completes offline study tasks (premise 3), and completing offline tasks requires studying offline (premise 1). Thus, some students study offline, derived through multiple steps.",
@@ -11205,7 +11205,7 @@
     ],
     "answers": [
       "Unknown",
-      "No"
+      "Yes"
     ],
     "explanation": [
       "The statement that if a student has reasoning skills, they have training follows because reasoning skills imply understanding (premise 8), and understanding implies training (premise 9), so reasoning skills lead to training.",
@@ -11249,7 +11249,7 @@
     ],
     "answers": [
       "C",
-      "No"
+      "Yes"
     ],
     "explanation": [
       "From premise 7, we know that if a student is familiar with HCMUT's code of conduct, then they adhere to HCMUT's code of conduct. From premise 2, there are vibrant student clubs at HCMUT. From premise 4, if there are vibrant student clubs at HCMUT, then all students adhere to HCMUT's code of conduct. Therefore, if a student is familiar with HCMUT's code of conduct, then they adhere to HCMUT's code of conduct, and if there are vibrant student clubs at HCMUT, then all students adhere to HCMUT's code of conduct (from premises 2, 4, and 7), making option C correct.",
@@ -11296,7 +11296,7 @@
     ],
     "answers": [
       "A",
-      "No"
+      "Yes"
     ],
     "explanation": [
       "From premise 6, we know there exists at least one student who is enrolled in a university program. From premise 1, if a student is enrolled in a university program, then the student has access to academic resources. From premise 5, if a student is enrolled in a university program and has access to academic resources, then there exists at least one student who has completed a research project. From premise 4, if a student is enrolled in a university program and has access to academic resources, then there exists at least one student who is participating in an internship program. Therefore, if a student is enrolled in a university program and has access to academic resources, then there exists at least one student who has completed a research project, and there exists at least one student who is participating in an internship program (from premises 2, 3, and 5), making option A correct.",
@@ -11339,7 +11339,7 @@
     ],
     "answers": [
       "A",
-      "No"
+      "Yes"
     ],
     "explanation": [
       "From premise 1, we know that if a student is enrolled in a course, then they have access to study materials. From premise 3, every student has access to study materials. From premise 4, if every student has access to study materials, then there exists at least one student who is enrolled in a course. Therefore, if a student is enrolled in a course, then they have access to study materials, and if every student has access to study materials, then there exists at least one student who is enrolled in a course (from premises 1, 3, and 4), making option A correct.",
@@ -11383,7 +11383,7 @@
     ],
     "answers": [
       "A",
-      "No"
+      "Yes"
     ],
     "explanation": [
       "From premise 1, we know that if a student is not studying, then they are not revising. From premise 2, if a student is not understanding the material, then they are not revising. From premise 4, if (a student not understanding the material implies they are not revising), then (a student not studying implies they are not revising). Therefore, if a student is not studying, then they are not revising, and if a student is not understanding the material, then they are not revising (from premises 1, 2, and 4), making option A correct.",
@@ -11520,7 +11520,7 @@
     ],
     "answers": [
       "A",
-      "No"
+      "Yes"
     ],
     "explanation": [
       "From premise 2, we know that if a student is preparing for an exam, then they are asking questions. From premise 3, if a student is not studying, then they are not attending tutorials. From premise 5, if (a student preparing for an exam implies they are asking questions), then (a student not studying implies they are not attending tutorials). Therefore, if a student is preparing for an exam, then they are asking questions, and if a student is not studying, then they are not attending tutorials (from premises 2, 3, and 5), making option A correct.",
@@ -11564,7 +11564,7 @@
     ],
     "answers": [
       "A",
-      "No"
+      "Yes"
     ],
     "explanation": [
       "From premise 1, we know that if a student is preparing for an exam, then they are understanding the material. From premise 3, every student is attending tutorials. From premise 5, if (a student preparing for an exam implies they are understanding the material), then every student is attending tutorials. Therefore, if a student is preparing for an exam, then they are understanding the material, and every student is attending tutorials (from premises 1, 3, and 5), making option A correct.",
@@ -11610,7 +11610,7 @@
     ],
     "answers": [
       "A",
-      "No"
+      "Yes"
     ],
     "explanation": [
       "From premise 3, we know there exists at least one student who is attending tutorials. From premise 5, if there exists at least one student who is attending tutorials, then if a student is not asking questions, they are not attending tutorials. From premise 1, every student is preparing for an exam. From premise 2, if a student is not asking questions, then they are not attending tutorials. Therefore, if there exists at least one student who is attending tutorials, then if a student is not asking questions, they are not attending tutorials, and every student is preparing for an exam (from premises 1, 2, 3, and 5), making option A correct.",
@@ -11836,7 +11836,7 @@
     ],
     "answers": [
       "A",
-      "No"
+      "Yes"
     ],
     "explanation": [
       "From premise 2, we know every student is revising. From premise 3, if a student is not understanding the material, then they are not revising. From premise 4, if (a student not understanding the material implies they are not revising), then (a student attending tutorials implies they are revising). From premise 5, if (the statement that 'if a student not understanding the material implies they are not revising, then a student attending tutorials implies they are revising') is true, then (if a student is not understanding the material, they are not revising). From premise 1, if a student is attending tutorials, then they are revising. Therefore, if a student is not understanding the material, then they are not revising, and if a student is attending tutorials, then they are revising (from premises 1, 2, 3, 4, and 5), making option A correct.",
@@ -11974,7 +11974,7 @@
     ],
     "answers": [
       "C",
-      "No"
+      "Yes"
     ],
     "explanation": [
       "From premise 3, we know that if a high school student is not proficient in algebra, then they will not ace calculus. From premise 4, if (if a high school student is not proficient in algebra, then they will not ace calculus), then there exists at least one high school student who understands trigonometry. From premise 5, if (if (if a high school student is not proficient in algebra, then they will not ace calculus), then there exists at least one high school student who understands trigonometry), then there exists at least one high school student who understands trigonometry. From premise 2, there exists at least one high school student who understands trigonometry. Therefore, if a high school student is not proficient in algebra, then they will not ace calculus, and there exists at least one high school student who understands trigonometry (from premises 2, 3, 4, and 5), making option C correct.",
@@ -13741,7 +13741,7 @@
     ],
     "answers": [
       "C",
-      "No"
+      "Yes"
     ],
     "explanation": [
       "All students qualify for a scholarship because all students study regularly, and studying regularly implies qualifying for a scholarship.",
@@ -15532,7 +15532,7 @@
     ],
     "answers": [
       "Unknown",
-      "No"
+      "Yes"
     ],
     "explanation": [
       "There exists a student who passes the course because at least one student attends lectures regularly, and attending lectures regularly implies passing the course.",
